@@ -6,9 +6,6 @@ Use it to import shapes from Silhouette Roto and Paint, Trackers exported from m
 
 The ideia is to place .nk files in a temporary folder and get rid of them after importing (deleting them automatically)
 
-
-Its very specially usefull if you set it to a shortcut in Nuke's menu.py:
-
 #### Instructions to use ####
 
 Set up the default import folder path on init.py or menu.py with the code below:
