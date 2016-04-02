@@ -9,6 +9,7 @@ The ideia is to place .nk files in a temporary folder and get rid of them after 
 #### Instructions to use ####
 
 Set up the default import folder path on init.py or menu.py with the code below:
+
 os.environ['AUTOSCRIPTIMPORTPATH'] = '/path/to/your/folder'
 
 It can be hardcoded on the script if you dont want to use ENV vairables (check inside script code )
