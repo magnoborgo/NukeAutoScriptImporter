@@ -84,12 +84,12 @@ def AutoScriptImport(keep=True):
         msg = "AutoScriptPath path not set!, use:\nos.environ['AUTOIMPORTPATH'] = '/path/to/your/folder' on menu.py"
         if nuke.GUI:
             nuke.message(msg)
-        raise TypeError, msg
+        raise TypeError(msg)
     if not os.path.exists(path):
         msg =  'AutoScriptPath do not exists: ' + path
         if nuke.GUI:
             nuke.message(msg)
-        raise TypeError, msg
+        raise TypeError(msg)
     dirList=os.listdir(path)
     for fname in dirList:
         ext = os.path.splitext(fname)
